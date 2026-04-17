@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커뮤니티 - 더편한요양병원</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">더편한<span>요양병원</span></a></h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="about.html">병원소개</a></li>
+                    <li><a href="treatment.html">진료안내</a></li>
+                    <li><a href="info.html">이용안내</a></li>
+                    <li><a href="community.html" class="active-link">커뮤니티</a></li>
+                    <li><a href="volunteer.html">자원봉사</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1920');">
+            <div class="container">
+                <h2>커뮤니티</h2>
+                <p>병원의 즐거운 소식과 소중한 인연을 공유합니다.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="community-tabs">
+                    <button class="tab-btn active">공지사항</button>
+                    <button class="tab-btn">병원 갤러리</button>
+                    <button class="tab-btn">주간 식단표</button>
+                </div>
+
+                <div class="board-container">
+                    <table class="board-table">
+                        <thead>
+                            <tr>
+                                <th class="num">번호</th>
+                                <th class="title">제목</th>
+                                <th class="date">날짜</th>
+                                <th class="hit">조회</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5</td>
+                                <td class="title"><a href="#">[공지] 병원 내 마스크 착용 의무화 안내</a></td>
+                                <td>2024.04.10</td>
+                                <td>152</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td class="title"><a href="#">4월 어르신 생신잔치 사진입니다.</a></td>
+                                <td>2024.04.08</td>
+                                <td>89</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="title"><a href="#">[식단표] 4월 2주차 식단표 안내</a></td>
+                                <td>2024.04.05</td>
+                                <td>210</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="title"><a href="#">신규 도입된 재활 치료 장비 소개</a></td>
+                                <td>2024.03.25</td>
+                                <td>345</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="title"><a href="#">[공지] 2024년 설날 연휴 진료 및 면회 안내</a></td>
+                                <td>2024.02.05</td>
+                                <td>560</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="prev">&lt;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#" class="next">&gt;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h4>더편한요양병원</h4>
+                    <p>주소: 경상남도 창원시 어딘가... (임시)</p>
+                    <p>전화: 055-606-7722 | 팩스: 055-000-0000</p>
+                    <p>사업자등록번호: 000-00-00000</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">환자의 권리와 의무</a></li>
+                        <li><a href="#">비급여 안내</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 더편한요양병원. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
